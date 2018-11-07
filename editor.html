@@ -659,7 +659,8 @@
 <script>
 $(document).ready(function() 
 {
-	Vvveb.Builder.init('demo/narrow-jumbotron/index.html', function() {
+    //Choix du template de base lors de l'affichage
+	Vvveb.Builder.init('templates/narrow-jumbotron/index.html', function() {
 		//run code after page/iframe is loaded
 	});
 
@@ -667,16 +668,12 @@ $(document).ready(function()
 	Vvveb.FileManager.init();
 	Vvveb.FileManager.addPages(
 	[
-		{name:"narrow-jumbotron", title:"Jumbotron",  url: "demo/narrow-jumbotron/index.html"},
-		{name:"landio", title:"Landio landing page",  url: "demo/landio/index.html"},
-		{name:"album", title:"Album",  url: "demo/album/index.html"},
-		{name:"blog", title:"Blog",  url: "demo/blog/index.html"},
-		{name:"carousel", title:"Carousel",  url: "demo/carousel/index.html"},
-		{name:"offcanvas", title:"Offcanvas",  url: "demo/offcanvas/index.html"},
-		{name:"pricing", title:"Pricing",  url: "demo/pricing/index.html"},
-		{name:"product", title:"Product",  url: "demo/product/index.html"},
-		{name:"ecommerce", title:"eCommerce homepage",  url: "ecommerce_demo/index.html"},
-		{name:"test", title:"test",  url: "http://vvveb_install.givan.ro/"},
+		{name:"narrow-jumbotron", title:"Jumbotron",  url: "templates/narrow-jumbotron/index.html"},
+		{name:"template-1", title:"Template CV 1",  url: "templates/CV/template-1.html"},
+		{name:"template-2", title:"Template CV 2",  url: "templates/CV/template-2.html"},
+		{name:"template-3", title:"Template CV 3",  url: "templates/CV/template-3.html"},
+		{name:"template-4", title:"Template CV 4",  url: "templates/CV/template-4.html"},
+		{name:"template-5", title:"Template CV 5",  url: "templates/CV/template-5.html"},
 	]);
 	
 	Vvveb.FileManager.loadPage("narrow-jumbotron");
