@@ -70,7 +70,7 @@ function changeNodeName(node, newNodeName)
 
 Vvveb.ComponentsGroup['Composants Bootstrap'] =
 //["html/container", "html/gridrow", "html/button", "html/buttongroup", "html/buttontoolbar", "html/heading", "html/image", "html/jumbotron", "html/alert", "html/card", "html/listgroup", "html/hr", "html/taglabel", "html/badge", "html/progress", "html/navbar", "html/breadcrumbs", "html/pagination", "html/form", "html/textinput", "html/textareainput", "html/selectinput", "html/fileinput", "html/checkbox", "html/radiobutton", "html/table", ];
-["html/container", "html/gridrow", "html/heading", "html/image", "html/listgroup", "html/hr", "html/table", ];
+["html/container", "html/gridrow", "html/heading", "html/image", "html/listgroup", "html/hr", "html/table","html/progress" ];
 
 
 var base_sort = 100;//start sorting for base component from 100 to allow extended properties to be first
